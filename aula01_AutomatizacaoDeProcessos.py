@@ -1,3 +1,7 @@
+'''
+O código tem a função de abrir automaticamente o navegador Google Chrome, colar um link específico e acessar uma das pastas, fazer o download do arquivo necessário e abri-lo no terminal. 
+O código ainda está incompleto, pois ao final ainda é necessário automatizar o envio do arquivo atualizado através do Gmail.
+'''
 import pyautogui
 import pyperclip
 import time
