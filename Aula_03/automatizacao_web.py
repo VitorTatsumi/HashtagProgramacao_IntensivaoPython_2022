@@ -8,7 +8,7 @@ from datetime import date
 #Abrir navegador
 navegador = webdriver.Chrome()
 
-#Ir para determinado site
+#Ir para determinado site 
 navegador.get('https://www.google.com/')
 #Digitar determinado texto através do sendkeys no local determinado através do xpath
 #Para encontrar o XPATH -> Clicar com o botão direito na tela -> Clicar em Inspecionar elemento -> Clicar na setinha e selecionar o elemento - > Clicar em Copy e Copy XPath
